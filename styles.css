@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.tudo {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+form input :focus{
+    border: 3px solid #555;
+}
+
+.buttoncalc {
+    font-family: 'Roboto', sans-serif;
+    padding: 9px 25px;
+    background-color: #8B0000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
